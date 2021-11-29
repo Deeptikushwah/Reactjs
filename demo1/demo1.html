@@ -1,0 +1,162 @@
+<!-- data type  fnction and block and -->
+
+<script>
+
+
+    var name="deepti";
+    name="kushah";
+    console.log(name);
+
+
+    let firstname="deeptiksuhwah";
+  
+    console.log(firstname);
+
+    // const lastname="kushwahdeepti";
+    // lastname="kushwah___deepti";
+    // console.log(lastname);
+    
+    // function modjs(love)
+    // {
+    //     if(love)
+    //     let name="deepti";
+    //     const sname="kushwah";
+    //     console.log(name+ "..........."+sname);
+    // }
+    // modjs(true);
+
+    // function modjs(love)
+    // {
+    //     if(love){
+    //     var name="deepti";
+    //     var sname="kushwah";
+    //     }
+    //     console.log(name+ "..........."+sname);
+    // }
+    // modjs(true);
+
+    // function modjs(love)
+    // {
+    //     if(love){
+    //     let name="deepti";
+    //     let sname="kushwah";
+    //     }
+    //     console.log(name+ "..........."+sname);
+    // }
+    // modjs(true);
+
+    // var whowillwintoday="india";
+    // if(true)
+    // {
+    //     var whowillwintoday="newzeland";
+    //     console.log("block scope...."+whowillwintoday);
+    // }
+
+    // console.log("function scope...."+whowillwintoday);
+
+
+    // let whowillwintoday="india";
+    // if(true)
+    // {
+    //     let whowillwintoday="newzeland";
+    //     console.log("block scope...."+whowillwintoday);
+    // }
+
+    // console.log("function scope...."+whowillwintoday);
+//     const whowillwintoday="india";
+//     if(true)
+//     {
+//        const whowillwintoday="newzeland";
+//         console.log("block scope...."+whowillwintoday);
+//     }
+
+//     console.log("function scope...."+whowillwintoday);
+
+// //es5
+// console.log("my name is deepti"+"my name is choti");
+// let firstanmel="deepti";
+// let lastnamel="kushwah";
+// console.log(firstanmel + lastnamel);
+
+// //es6
+// console.log(`my name is deepti . and i am 24 years old`);
+// let firstame="deepti";
+// let lastname="kushwah";
+// console.log(`my name is ${firstname}. my last name is ${lastname}`);
+
+
+
+//es6 string method
+
+console.log(` name is ${firstname}`.startsWith('D'));
+console.log(` name is ${firstname}`.endsWith('H'));
+
+console.log(` name is ${firstname}`.includes('deeptiksuhwah'));
+console.log(` name is ${firstname}`.includes('deept'));
+
+console.log(`  ${firstname}  `.repeat(5));
+const fname=`$[firstname}`;
+console.log(fname.startsWith('d'));
+
+const myprograming=['js','java' ,'c','c++','python'];
+//es5
+// var top1=myprograming[0];
+// var top2=myprograming[1];
+// var top3=myprograming[2];
+// var top4=myprograming[3];
+// var top5=myprograming[4];
+// var top6=myprograming[5];
+// console.log(top1);
+
+//es6
+// let [top1 ,top2,top3,top4,top5,top6]=myprograming;
+// console.log("my fav programing language"+top2);
+
+// console.log(myprograming.length);
+
+// const bioData={
+//     namee :"vinod",
+//     age:26,
+//     deg:'cs'
+// }
+// let {namee ,age,deg}=bioData;
+// console.log(`my name is ${namee}. my age is ${age}`);
+
+//fact arrow
+
+//es5
+var sum=function()
+{
+    var a=10;
+    var b=10;
+    return a+b;
+
+}
+console.log(sum());
+
+// //es6
+
+// const sum1=()=>
+// {
+//     let a=5;
+//     let b=12;
+//     return a+b;
+// }
+// console.log(sum1());
+
+//default parameter
+//es5
+// function mult(a,b){
+//     console.log(a*b);
+// }
+// mult(4);
+
+
+function mult(a,b){
+    b=(typeof b!=='undefined')?b:2
+
+    console.log(a*b);
+}
+mult(4);
+//es6
+    </script>
